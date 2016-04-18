@@ -1,3 +1,3 @@
-# SwiftBasic
- ![image](https://github.com/iMeiq/SwiftBasic/tree/master/SwiftBasic/images/swiftAnimations.gif)
-Swift 小动画
+# SwiftBasic  
+  Swift 小动画
+![image](https://github.com/iMeiq/SwiftBasic/tree/master/SwiftBasic/images/screenshots/swiftAnimations.gif)
