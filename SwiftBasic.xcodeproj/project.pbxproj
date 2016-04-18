@@ -18,7 +18,7 @@
 		BFA82F571CBDDB890062756A /* MQWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA82F561CBDDB890062756A /* MQWaveView.swift */; };
 		BFA82F591CBDDBCF0062756A /* WaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA82F581CBDDBCF0062756A /* WaveViewController.swift */; };
 		BFA82FA21CBE5CC40062756A /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA82FA11CBE5CC40062756A /* OCViewController.m */; };
-		BFA82FB91CC4B5640062756A /* swiftAnimations.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFA82FB81CC4B5640062756A /* swiftAnimations.gif */; };
+		BFA82FBC1CC4B89A0062756A /* swiftAnimations.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFA82FBB1CC4B89A0062756A /* swiftAnimations.gif */; };
 		BFF4258F1C3AAF5700CAEA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4258E1C3AAF5700CAEA9A /* AppDelegate.swift */; };
 		BFF425911C3AAF5700CAEA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF425901C3AAF5700CAEA9A /* ViewController.swift */; };
 		BFF425941C3AAF5700CAEA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF425921C3AAF5700CAEA9A /* Main.storyboard */; };
@@ -75,7 +75,7 @@
 		BFA82F9F1CBE5CC40062756A /* SwiftBasic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBasic-Bridging-Header.h"; sourceTree = "<group>"; };
 		BFA82FA01CBE5CC40062756A /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		BFA82FA11CBE5CC40062756A /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
-		BFA82FB81CC4B5640062756A /* swiftAnimations.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swiftAnimations.gif; sourceTree = "<group>"; };
+		BFA82FBB1CC4B89A0062756A /* swiftAnimations.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swiftAnimations.gif; sourceTree = "<group>"; };
 		BFF4258B1C3AAF5700CAEA9A /* SwiftBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF4258E1C3AAF5700CAEA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF425901C3AAF5700CAEA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 		BFA82F061CBB9B980062756A /* images */ = {
 			isa = PBXGroup;
 			children = (
-				BFA82FB81CC4B5640062756A /* swiftAnimations.gif */,
+				BFA82FBA1CC4B89A0062756A /* screenshots */,
 				BFA82F071CBB9B980062756A /* hudBack@2x.png */,
 				BFA82F081CBB9B980062756A /* hudCircle@2x.png */,
 			);
@@ -195,6 +195,14 @@
 				BFA82F9F1CBE5CC40062756A /* SwiftBasic-Bridging-Header.h */,
 			);
 			path = OC;
+			sourceTree = "<group>";
+		};
+		BFA82FBA1CC4B89A0062756A /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				BFA82FBB1CC4B89A0062756A /* swiftAnimations.gif */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		BFF425821C3AAF5700CAEA9A = {
@@ -367,9 +375,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF425991C3AAF5700CAEA9A /* LaunchScreen.storyboard in Resources */,
-				BFA82FB91CC4B5640062756A /* swiftAnimations.gif in Resources */,
 				BFF425961C3AAF5700CAEA9A /* Assets.xcassets in Resources */,
 				BFF425941C3AAF5700CAEA9A /* Main.storyboard in Resources */,
+				BFA82FBC1CC4B89A0062756A /* swiftAnimations.gif in Resources */,
 				BFA82F091CBB9B980062756A /* hudBack@2x.png in Resources */,
 				BFA82F0A1CBB9B980062756A /* hudCircle@2x.png in Resources */,
 			);
